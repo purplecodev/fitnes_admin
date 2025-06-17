@@ -1,0 +1,98 @@
+html,
+body,
+h1,
+h2,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 14px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+header h1 {
+  color: rgb(81, 142, 255);
+}
+
+.admin-actions {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.actions-for-table {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1178px) {
+  h1 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 0.8em;
+  }
+  .admin-table {
+    font-size: 0.8em;
+    button {
+      font-size: 1em;
+    }
+  }
+  .ant-layout-sider-trigger {
+    display: none;
+  }
+  .ant-modal-content {
+    margin: 0 auto;
+    max-width: 70%;
+    .ant-modal-title {
+      font-size: 0.8em;
+    }
+    .ant-form-item label {
+      font-size: 0.8em;
+    }
+    button {
+      font-size: 0.8em;
+    }
+  }
+  .ant-popover-inner {
+    font-size: 0.8em;
+    max-width: 70%;
+    button {
+      font-size: 0.8em;
+    }
+  }
+  .admin-in-modal {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.8em;
+    .ant-select-selection-item {
+      font-size: 0.8em;
+    }
+  }
+  .mobile-item {
+    background-color: rgb(239, 239, 245);
+    border-bottom: 1px solid #6c8df8;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 9px;
+  }
+}
