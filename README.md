@@ -21,8 +21,6 @@
 ---
 
 ## Демо
-
-[Посмотреть демо на purple-code.ru](https://purple-code.ru)
 ![{D8457EE2-FA69-4805-9665-9BDFF35A4B56}](https://github.com/user-attachments/assets/0fe399dc-9607-42a1-b2dd-5af857b379a6)
 
 ---
